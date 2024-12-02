@@ -34,7 +34,7 @@ export default {
                   <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="w-6 h-6">
               </a>
               <!-- Instagram -->
-              <a href="https://www.instagram.com/gabriel.velazquez/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <a href="https://www.instagram.com/_gabriel.vb/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                   <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" class="w-6 h-6">
               </a>
               <!-- GitHub -->
