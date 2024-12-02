@@ -18,14 +18,29 @@ export default {
 <template>
   <div class="banner-1">
     <!-- NavBar -->
-    <nav class="container px-6 mx-auto md:flex md:justify-between md:items-center">
+    <nav class="container px-6 mx-auto md:flex md:justify-between md:items-center mb-5">
       <div class="flex items-center justify-between">
         <div class="relative w-16 h-16">
           <img
-            class="rounded-full border border-gray-100 shadow-sm"
-            src="./assets/1688841381967.jpeg"
-            alt="user image"
+              class="rounded-full border border-gray-100 shadow-sm"
+              src="./assets/1688841381967.jpeg"
+              alt="user image"
           />
+        </div>
+      
+        <div class="flex justify-center space-x-4 mt-4 m-5">
+              <!-- LinkedIn -->
+              <a href="https://www.linkedin.com/in/gabriel-velazquez-berrueta-53a3b925a/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                  <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="w-6 h-6">
+              </a>
+              <!-- Instagram -->
+              <a href="https://www.instagram.com/gabriel.velazquez/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                  <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" class="w-6 h-6">
+              </a>
+              <!-- GitHub -->
+              <a href="https://github.com/Sweet217?tab=repositories" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                  <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" class="w-6 h-6">
+              </a>
         </div>
         <!-- Mobile menu button -->
         <div @click="showMenu = !showMenu" class="flex md:hidden">
@@ -67,15 +82,13 @@ export default {
               View My Projects
             </button>
           </a>
-          <a href="https://www.instagram.com/_gabriel.vb/" target="_blank" rel="noopener noreferrer">
-            <button class="border-gray-800 submit-button mb-5 md:mb-0">
-                Contact Me
-            </button>
+          <a href="mailto:ingenierogvb@gmail.com" class="border-gray-800 submit-button mb-5 md:mb-5">
+            Contact Me
           </a>
         </div>
       </div>
-      <div class="w-8/12 flex justify-center">
-        <img src="./assets/yo__1_-removebg-preview (1).png" style="height: auto; width: auto; max-width: 210px;">
+      <div class="w-8/12 flex justify-center mt-20">
+        <img src="./assets/image-removebg-preview (1).png" style="height: auto; width: auto; max-width:auto;">
       </div>
     </div>
   </div>
@@ -86,13 +99,13 @@ export default {
     <div class="card">
       <!-- Image Section -->
       <div class="card-image md:w-1/2 flex items-center justify-center">
-        <img class="rounded-2xl object-contain max-h-40 md:max-h-60" src="./assets/solytec_page.png" />
+        <img class="rounded-2xl object-contain max-h-40 md:max-h-60 mt-5" src="./assets/solytec_page.png" />
       </div>
     
       <!-- Content Section -->
       <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
         <h4 class="project-title item">Solytec Landpage</h4>
-        <p class="font-work_sans pr-12">A landpage for Solytec, also maintaining it and giving it updates as requested.</p>
+        <p class="font-work_sans pr-12">A landpage for Solytec </p>
         <a href="https://solytecmx.com/" target="_blank" rel="noopener noreferrer">
           <button class="text-sky-800 font-bold text-2xl tracking-wider">
             View Project
@@ -105,7 +118,7 @@ export default {
     <div class="card">
       <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
         <h4 class="project-title item">Solytec Web App For Dynamic Ads</h4>
-        <p class="font-work_sans pr-12">Developed a dynamic web application for managing ads, utilizing Vue and Laravel for frontend and backend integration.</p>
+        <p class="font-work_sans pr-12">Developed a dynamic web app for ad management, leveraging Vue and Laravel for seamless frontend-backend integration, with MySQL for database design.</p>
         <a href="https://pd.solytecmx.com/" target="_blank" rel="noopener noreferrer">
           <button class="text-sky-800 font-bold text-2xl tracking-wider">
             View Project
@@ -113,13 +126,13 @@ export default {
         </a>
       </div>
       <div class="card-image md:w-1/2 flex items-center justify-center">
-        <img class="object-contain max-h-40 md:max-h-60 rounded-2xl" src="./assets/pd_solytec_page.png" />
+        <img class="object-contain max-h-40 md:max-h-60 rounded-2xl mb-5" src="./assets/pd_solytec_page.png" />
       </div>
     </div>
 
     <div class="card">
       <div class="card-image md:w-1/2 flex items-center justify-center">
-        <img class="rounded-2xl object-contain max-h-40 md:max-h-60" src="./assets/Solytec-PD-1-150x150.png" />
+        <img class="rounded-2xl object-contain max-h-40 md:max-h-60 mt-5" src="./assets/Solytec-PD-1-150x150.png" />
       </div>
       <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
         <h4 class="project-title item">Solytec Ads Player</h4>
@@ -143,7 +156,24 @@ export default {
         </a>
       </div>
       <div class="card-image md:w-1/2 flex items-center justify-center">
-        <img class="rounded-2xl object-contain max-h-40 md:max-h-60" src="./assets/dermapro.png" />
+        <img class="rounded-2xl object-contain max-h-40 md:max-h-60 mb-5" src="./assets/dermapro.png" />
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-image md:w-1/2 flex-col items-center justify-center">
+        <img class="rounded-2xl object-contain max-h-40 md:max-h-60 mt-5" src="./assets/hackaton.jpeg" />
+        <img class="rounded-2xl object-contain max-h-40 md:max-h-60 mt-5" src="./assets/allergies index.png"/>
+      </div>
+      <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
+        <h4 class="project-title item">VIMTACH Hackaton Project</h4>
+        <p class="font-work_sans pr-12">Secured 2nd place in a hackathon simulating a virtual clinic environment where users acted as doctors to diagnose diseases and prescribe treatments for virtual patients. Contributed as the backend and API developer, focusing on Flask/Python for building robust APIs and integrating prompt engineering techniques. Leveraged advanced AI tools like o1-mini, Whisper TTS-1, and meta-prompt engineering to enable real-time data retrieval, reasoning, and external tool integration. Collaborated with a teammate who developed the React frontend. Additionally, implemented a custom API to securely save medical records as metadata on a Pinecone vector database, demonstrating innovative use of AI and backend systems for healthcare simulations. On github I only have the APIs for Pinecone, Prompts, and a test of multi LLMS.
+        </p>
+        <a href="https://github.com/Sweet217/HACKATON-VIMTECH" target="_blank" rel="noopener noreferrer">
+          <button class="text-sky-800 font-bold text-2xl tracking-wider">
+            View Backend
+          </button>
+        </a>
       </div>
     </div>
   </div>
