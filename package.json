@@ -1,8 +1,11 @@
 {
-  "name": "vue-single-page",
+  "name": "gvb-portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "author": "Gabriel Velazquez Berrueta",
+  "linkedin": "https://www.linkedin.com/in/gabriel-velazquez-berrueta-53a3b925a/",
+  "email": "ingenierogvb@gmail.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
