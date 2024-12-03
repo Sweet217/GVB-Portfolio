@@ -11,7 +11,8 @@ module.exports = {
       },
       fontFamily: {
         Eczar: ["Eczar", "serif"],
-        work_sans: ["Work Sans", "sans-serif"]
+        work_sans: ["Work Sans", "sans-serif"],
+        funky: ['"Super Funky Regular"', 'sans-serif'],
       },
     },
   },
