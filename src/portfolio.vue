@@ -90,6 +90,8 @@ export default {
         class="flex-col items-end mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0"
       >
         <li class="menu-button"><a href="#">Home</a></li>
+        <li class="menu-button"><a href="#education" v-smooth-scroll>Education</a></li>
+        <li class="menu-button"><a href="#experience" v-smooth-scroll>Experience</a></li>
         <li class="menu-button"><a href="#work" v-smooth-scroll>Projects</a></li>
         <li class="menu-button">
           <a href="#volunteering" v-smooth-scroll>Volunteering</a>
@@ -137,6 +139,125 @@ export default {
           src="./assets/image-removebg-preview (1).png"
           style="height: auto; width: auto; max-width: auto"
         />
+      </div>
+    </div>
+  </div>
+  <div class="banner-3 container">
+    <!-- Education Banner -->
+    <div class="space-y-5 py-8 px-8 md:py-16 md:px-20">
+      <h3 class="heading4 my-5">Education</h3>
+      <div class="flex flex-wrap gap-5 justify-center">
+        <!-- Education Card 1 -->
+        <div class="card w-full md:w-1/2 lg:w-1/3 border-primary shadow-lg">
+          <div class="space-y-5 py-8 px-8">
+            <h4 class="project-title item">
+              Bachelor of Science in Software Engineering
+            </h4>
+            <h5 class="text-lg">(In progress)</h5>
+            <p class="font-work_sans pr-12">
+              A four-year degree focusing on software development, programming languages,
+              and system architecture in Universidad de Colima.
+            </p>
+            <a
+              href="https://www.linkedin.com/in/gabriel-velazquez-berrueta-53a3b925a/?profileId=ACoAAD_Gfr4ByADopT9UPUNyUaVELd0BX3Jh77A"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button class="text-sky-800 font-bold text-2xl tracking-wider">
+                Learn More
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <!-- Education Card 2 -->
+        <div class="card w-full md:w-1/2 lg:w-1/3 border-primary shadow-lg">
+          <div class="space-y-5 py-8 px-8">
+            <h4 class="project-title item">
+              College Certificate in Artificial Intelligence
+            </h4>
+            <h5 class="text-lg">Completed</h5>
+            <p class="font-work_sans pr-12">
+              Graduate program specializing in AI techniques, machine learning, and deep
+              learning applications in Centennial College.
+            </p>
+            <p></p>
+            <a
+              href="https://www.linkedin.com/in/gabriel-velazquez-berrueta-53a3b925a/overlay/1733882770069/single-media-viewer/?profileId=ACoAAD_Gfr4ByADopT9UPUNyUaVELd0BX3Jh77A"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button class="text-sky-800 font-bold text-2xl tracking-wider">
+                Learn More
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Experience Banner -->
+    <div class="space-y-5 py-8 px-8 md:py-16 md:px-20">
+      <h3 class="heading4 my-5">Experience</h3>
+      <div class="flex flex-wrap gap-5 justify-center">
+        <!-- Experience Card 1 -->
+        <div class="card w-full md:w-1/2 lg:w-1/3 border-secondary shadow-lg">
+          <div class="space-y-5 py-8 px-8">
+            <h4 class="project-title item">Fullstack Developer</h4>
+            <h5 class="text-2xl font-bold">SOLYTEC</h5>
+            <h6 class="text-xl">Part Time</h6>
+            <p class="font-work_sans pr-12">
+              Worked on developing web applications using Vue.js and Laravel, focusing on
+              API integrations and frontend features. Also use Python. Builded webpages,
+              web systems,single application pages, prototypes, Rest-apis, designed
+              databases, Builded databases, desktop applications with python, testing,
+              etc.
+            </p>
+            <!-- <a href="#" target="_blank" rel="noopener noreferrer">
+              <button class="text-sky-800 font-bold text-2xl tracking-wider">
+                View Project
+              </button>
+            </a> -->
+          </div>
+        </div>
+
+        <!-- Experience Card 2 -->
+        <div class="card w-full md:w-1/2 lg:w-1/3 border-secondary shadow-lg">
+          <div class="space-y-5 py-8 px-8">
+            <h4 class="project-title item">Prompt Engineer</h4>
+            <h5 class="text-2xl font-bold">Socius AI</h5>
+            <h6 class="text-xl">Freelance</h6>
+            <p class="font-work_sans pr-12">
+              I undertook the task of automating the call review process to evaluate
+              compliance with specific criteria. This project involved the development of
+              custom prompts and scripts to streamline the assessment of phone
+              conversations, thereby improving efficiency and accuracy in the evaluation
+              process.
+            </p>
+            <!-- <a href="#" target="_blank" rel="noopener noreferrer">
+              <button class="text-sky-800 font-bold text-2xl tracking-wider"></button>
+            </a> -->
+          </div>
+        </div>
+
+        <!-- Experience Card 3 -->
+        <div class="card w-full md:w-1/2 lg:w-1/3 border-secondary shadow-lg">
+          <div class="space-y-5 py-8 px-8">
+            <h4 class="project-title item">Prompt Engineer</h4>
+            <h5 class="text-2xl font-bold">Scalatowers</h5>
+            <h6 class="text-xl">Freelance</h6>
+            <p class="font-work_sans pr-12">
+              Developed different prompts for the company AI with the purpose of
+              developing AI Agents for different companies & Automation of workflows with
+              JAVA Scripts
+            </p>
+            <!-- <a href="#" target="_blank" rel="noopener noreferrer">
+              <button class="text-sky-800 font-bold text-2xl tracking-wider">
+                View Freelance Work
+              </button>
+            </a> -->
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -272,7 +393,7 @@ export default {
     </div>
   </div>
 
-  <div class="banner-3 space-y-10 pb-20 bg-opacity-50" id="volunteering">
+  <div class="banner-4 space-y-10 pb-20 bg-opacity-50" id="volunteering">
     <h3 class="heading3 my-5">Volunteering</h3>
 
     <div class="card">

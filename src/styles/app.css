@@ -35,6 +35,12 @@
     @apply md:text-5xl text-xl font-bold font-work_sans tracking-wide;
 }
 
+.heading4 {
+    color: #001931;
+    @apply md:text-5xl text-xl font-bold font-work_sans tracking-wide;
+    border-bottom: 10px solid #cce7ff;
+}
+
 .project-title {
     @apply text-gray-700 text-3xl md:text-4xl font-work_sans tracking-wide font-bold;
 }
@@ -62,7 +68,7 @@
 
 .banner-3 {
     @apply px-5 pt-5 md:pt-10 3xl:px-36 2xl:px-36 xl:px-28 lg:px-24 md:px-16;
-    background-image: url('../assets/seal pixelart2-vmake.jpeg');
+    background-image: url('../assets/1724132433797.jpeg');
     background-position: 50% 15%;
     background-size: cover;
     background-repeat: no-repeat;
