@@ -266,34 +266,13 @@ export default {
     <h3 class="heading3 my-5">Highlighted Projects</h3>
 
     <div class="card">
-      <!-- Image Section -->
-      <div class="card-image md:w-1/2 flex items-center justify-center">
-        <img
-          class="rounded-2xl object-contain max-h-40 md:max-h-60 mt-5"
-          src="./assets/solytec_page.png"
-        />
-      </div>
-
-      <!-- Content Section -->
       <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
-        <h4 class="project-title item">Solytec Landpage</h4>
-        <p class="font-work_sans pr-12">A landpage for Solytec</p>
-        <a href="https://solytecmx.com/" target="_blank" rel="noopener noreferrer">
-          <button class="text-sky-800 font-bold text-2xl tracking-wider">
-            View Project
-          </button>
-        </a>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
-        <h4 class="project-title item">Solytec Web App For Dynamic Ads</h4>
+        <h4 class="project-title item">SEALSYSTEM Web App For Dynamic Reproduction of Media (Non published)</h4>
         <p class="font-work_sans pr-12">
-          Developed a dynamic web app for ad management, leveraging Vue and Laravel for
+          Developed a dynamic web app for media management, leveraging Vue and Laravel for
           seamless frontend-backend integration, with MySQL for database design.
         </p>
-        <a href="https://pd.solytecmx.com/" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/Sweet217/SEALSYSTEM/tree/master" target="_blank" rel="noopener noreferrer">
           <button class="text-sky-800 font-bold text-2xl tracking-wider">
             View Project
           </button>
@@ -302,7 +281,7 @@ export default {
       <div class="card-image md:w-1/2 flex items-center justify-center">
         <img
           class="object-contain max-h-40 md:max-h-60 rounded-2xl mb-5"
-          src="./assets/pd_solytec_page.png"
+          src="./assets/Screenshot 2025-04-22 at 11.53.22 a.m..png"
         />
       </div>
     </div>
@@ -315,17 +294,12 @@ export default {
         />
       </div>
       <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
-        <h4 class="project-title item">Solytec Ads Player</h4>
+        <h4 class="project-title item">SEALSYSTEM ads Player</h4>
         <p class="font-work_sans pr-12">
           An app that let you register devices with licenses generated in the web app, as
           well as reproducing the multimedia from the lists created in the web app, App
           created using Python.
         </p>
-        <a href="https://solytecmx.com/#pd" target="_blank" rel="noopener noreferrer">
-          <button class="text-sky-800 font-bold text-2xl tracking-wider">
-            View Project
-          </button>
-        </a>
       </div>
     </div>
 
@@ -439,8 +413,8 @@ export default {
           <PhotoComponent class="pb-5 hidden md:hidden lg:block"></PhotoComponent>
         </div>
         <p class="font-work_sans text-gray-800 leading-loose max-w-xs text-right">
-          I have over six months of experience in building web and desktop applications,
-          emphasizing user-centered design and functionality.
+          I have over 1 year of experience in building web and desktop applications,
+          emphasizing user-centered design and functionality & Over 2 years of experience using LLMS and building apis that uses them for different focus and solutions.
         </p>
       </div>
     </div>

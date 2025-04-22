@@ -67,12 +67,17 @@
 }
 
 .banner-3 {
-    @apply px-5 pt-5 md:pt-10 3xl:px-36 2xl:px-36 xl:px-28 lg:px-24 md:px-16;
-    background-image: url('../assets/1724132433797.jpeg');
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background-position: 50% 15%;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    z-index: -1;
 }
 
 .banner-4 {
